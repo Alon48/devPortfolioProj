@@ -78,6 +78,7 @@ import TextFieldGroup from '../common/TextFieldGroup';
             value={this.state.password}
             onChange={this.onChange}
             error={errors.password}
+            useVendorStyles={false}
             />
             <input type="submit" className="btn btn-info btn-block mt-4" />
           </form>
